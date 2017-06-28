@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<div class="m-stick-footer-wrapper">
+    <div class="m-stick-footer-container">
+        <div class="container-fluid">
+        <div class="row" style="margin-top: 50px">
+            <div class="col-md-4 col-sm-2"></div>
+            <div class="col-md-4 col-xs-12 col-sm-8">
+                <form class="m-form" action="register" method="POST">
+                    <div class="text-align-center">
+                        <a href="/" title="返回首页"><img src="imgs/logo.png" alt="" class="logo"></a>
+                    </div>
+                    <h1 class="m-form-title text-align-center font-mini">Register</h1>
+                    <p class="m-form-text-info text-align-center">欢迎注册</p>
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <input type="text" autocomplete="off" name="name" placeholder="用户名" class="list-item-input" required="">
+                        </div>
+                        <div class="list-group-item">
+                            <input type="text" autocomplete="off" name="tel" placeholder="昵称" class="list-item-input" required="">
+                        </div>
+                        <div class="list-group-item">
+                            <div class="input-group">
+                              <input type="text" class="list-item-input" placeholder="验证码">
+                              <span class="input-group-btn">
+                                  <button class="btn btn-info" type="button" >发送验证码</button>
+                                  <button class="btn btn-info" type="button" disabled="disabled">32s后再发送</button>
+                              </span>
+                            </div>
+                        </div>
+                        <div class="list-group-item">
+                            <input type="password" autocomplete="off" name="pwd" placeholder="密码" class="list-item-input" required="">
+                        </div>
+                        <div class="list-group-item">
+                            <input type="password" autocomplete="off" name="pwd" placeholder="确认密码" class="list-item-input" required="">
+                        </div>
+                    </div>
+                    <!-- <p class="m-form-msg">请填写正确的账号信息</p> -->
+                    <button type="submit" class="btn btn-lg btn-success btn-block">注册</button>
+                    <p class="m-form-text-info text-align-center">
+                    <a href="login.html">已经有账号？</a>
+                    </p>
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-2"></div>
+        </div>
+        </div>
+    </div>
+    <div class="m-stick-footer" style="background: none">
+        <footer class="footer" style="margin-top: 10px">
+          <p class="copyright"><img src="imgs/logo.png" class="logo" alt="">&copy;微社区版权所有&nbsp;make by <a href="https://mengdu.github.io" target="_blank">@lanyue</a></p>
+        </footer>
+    </div>
+</div>
+
+
+</body>
+</html>

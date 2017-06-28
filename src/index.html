@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit|ie-stand|ie-comp">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<title>微社区 - 轻量级的社区系统</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/base.css">
+
+</head>
+<body>
+<!-- header -->
+<header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container my-container">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand animated slideInLeft fadeIn">
+          <img src="imgs/logo.png" alt="" class="logo">
+          <span class="website-name">微社区</span>
+        </a>
+      </div>
+      <nav id="bs-navbar" class="collapse navbar-collapse animated fadeIn">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html" class="active">首页</a>
+          </li>
+          <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
+                教程 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="qiche.html">node</a></li>
+                <li><a href="zhizao.html">html5</a></li>
+              </ul>
+          </li>
+          <li>
+            <a href="contact.html">博客</a>
+          </li>
+          <li>
+            <a href="contact.html">API</a>
+          </li>
+          <li>
+            <a href="register.html">注册</a>
+          </li>
+          <li>
+            <a href="login.html">登录</a>
+          </li>
+          <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle user-img-box" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
+                <img src="imgs/user1-128x128.jpg" class="user-img" alt="">
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="qiche.html">文章</a></li>
+                <li><a href="qiche.html">问答</a></li>
+                <li><a href="zhizao.html">退出</a></li>
+              </ul>
+          </li>
+        </ul>
+      </nav>
+  </div>
+</header>
+
+<!-- content -->
+<div class="container my-container">
+  <div class="row">
+    <div class="col-md-8">
+      <!-- 问答 -->
+      <div class="box">
+        <div class="box-header">
+          <img src="imgs/view.png" alt="" class="box-title-icon">
+          <h2 class="box-title">问答</h2>
+        </div>
+        <div class="box-content">
+          <ul class="qt-list">
+            <li class="qt-item">
+              <!-- 用户信息 -->
+              <div class="avatar-box">
+                <a href="#"><img src="imgs/user1-128x128.jpg" alt="" class="avatar-img"></a>
+                <a href="#" class="avatar-name">微社区</a>
+                <span class="avatar-sign">专注互联网娱乐开发</span>
+                <span class="avatar-annotation">刚刚</span>
+              </div>
+              <div class="qt-content">
+                <a href="#" class="qt-title">如何评价 2017 年 6 月 23 日京东市值超过百度？意味着什么？</a>
+              </div>
+              <!-- 控制 -->
+              <div class="control-box">
+                <a href="#" class="control-item"><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;123&nbsp;评论</a>
+                <a href="#" class="control-item"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;1000&nbsp;阅读</a>
+              </div>
+            </li>
+            <li class="qt-item">
+              <!-- 用户信息 -->
+              <div class="avatar-box">
+                <a href="#"><img src="imgs/user3-128x128.jpg" alt="" class="avatar-img"></a>
+                <a href="#" class="avatar-name">微社区</a>
+                <span class="avatar-sign">专注互联网娱乐开发</span>
+                <span class="avatar-annotation">刚刚</span>
+              </div>
+              <div class="qt-content">
+                <a href="#" class="qt-title">如何评价 2017 年 6 月 23 日京东市值超过百度？意味着什么？</a>
+              </div>
+              <!-- 控制 -->
+              <div class="control-box">
+                <a href="#" class="control-item"><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;123&nbsp;评论</a>
+                <a href="#" class="control-item"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;1000&nbsp;阅读</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 文章 -->
+      <div class="box">
+        <div class="box-header">
+          <img src="imgs/view.png" alt="" class="box-title-icon">
+          <h2 class="box-title">全部文章</h2>
+        </div>
+        <div class="box-content">
+          <ul class="article-list">
+            <li class="article-item">
+                <a href="#" class="article-type m-label m-label-info">生活</a>
+                <aside class="col-sm-3 article-cover-box">
+                    <div class="layout-table">
+                        <div class="layout-table-cell article-cover">
+                            <img src="imgs/wallpaper.jpg" alt="cover">
+                        </div>
+                    </div>
+                </aside>
+                <section class="col-sm-9 col-sm-offset-3">
+                    <a href=""><h1 class="article-title">欢迎来到我的blog，更多精彩内容为你呈现</h1></a>
+                    <p class="article-abstract">文章摘要</p>
+                    <div class="article-control">
+                        <a href="#" class="m-label">生活动态</a>
+                        <a href="#" class="m-label">心情</a>
+                        <span class="article-time">2017年5月7号</span>
+                    </div>
+                </section>
+            </li>
+                
+            <li class="article-item">
+              <a href="#" class="article-type m-label m-label-success">hosts</a>
+              <aside class="col-sm-3 article-cover-box">
+                  <div class="layout-table">
+                      <div class="layout-table-cell article-cover">
+                          <img src="https://laod.cn/wp-content/themes/begin/timthumb.php?src=https://laod.cn/wp-content/uploads/2015/07/Google.png&w=280&h=210&a=&zc=1" alt="cover">
+                      </div>
+                  </div>
+              </aside>
+              <section class="col-sm-9 col-sm-offset-3">
+                  <a href=""><h1 class="article-title">Google 谷歌IP地址、IP地址段、AS号码</h1></a>
+                  <p class="article-abstract">Google 以下来自互联网数据分配结构，提供 googleIP地址、谷歌IP地址段、googleAS自治系统号码、谷歌AS自治系统号码。 排序 as自治系统号码 注册机构 分配IP个数 登记时间 1...</p>
+                  <div class="article-control">
+                      <a href="#" class="m-label">Google</a>
+                      <a href="#" class="m-label">IP</a>
+                      <a href="#" class="m-label">AS</a>
+                      <span class="article-time">2017年5月6号</span>
+                  </div>
+              </section>
+            </li>
+
+            <li class="article-item">
+              <section class="col-sm-12">
+                <a href=""><h1 class="article-title">为什么我可以靠阅读挣钱，你不行</h1></a>
+                <p class="article-abstract">我现在每个月的收入基本上都是靠阅读赚来的； 每天早上我会带全国一千个小伙伴一起早起，一起早读；我开阅读能力训练课程；我在在行提供1对1的阅读能力指导；大量输入带来大量输出，我...</p>
+                <div class="article-control">
+                    <a href="#" class="m-label">阅读</a>
+                    <a href="#" class="m-label">营销</a>
+                    <span class="article-time">2017年5月2号</span>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- 文章 -->
+      <div class="box">
+        <div class="box-header no-border">
+          <h2 class="box-title"><a href="#" class="article-type m-label m-label-info">动态</a></h2>
+        </div>
+        <div class="box-content">
+          <ul class="article-list">
+            <li class="article-item">
+                <a href="#" class="article-type m-label m-label-info">生活</a>
+                <aside class="col-sm-3 article-cover-box">
+                    <div class="layout-table">
+                        <div class="layout-table-cell article-cover">
+                            <img src="imgs/wallpaper.jpg" alt="cover">
+                        </div>
+                    </div>
+                </aside>
+                <section class="col-sm-9 col-sm-offset-3">
+                    <a href=""><h1 class="article-title">欢迎来到我的blog，更多精彩内容为你呈现</h1></a>
+                    <p class="article-abstract">欢迎来到我的blog，更多精彩内容为你呈现</p>
+                    <div class="article-control">
+                        <a href="#" class="m-label">生活动态</a>
+                        <a href="#" class="m-label">心情</a>
+                        <span class="article-time">2017年5月7号</span>
+                    </div>
+                </section>
+            </li>
+                
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 hidden-xs">
+
+      <div class="box">
+        <div class="box-header">
+          <img src="imgs/hot.png" alt="" class="box-title-icon">
+          <h2 class="box-title">热门文章</h2>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-header">
+          <img src="imgs/info-focus.png" alt="" class="box-title-icon">
+          <h2 class="box-title">公告</h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <p class="copyright"><img src="imgs/logo.png" class="logo" alt="">&copy;微社区版权所有&nbsp;make by <a href="https://mengdu.github.io" target="_blank">@lanyue</a></p>
+</footer>
+
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
