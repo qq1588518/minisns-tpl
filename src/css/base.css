@@ -255,6 +255,39 @@ body{
   color: #95A1BA;
 }
 
+/* 块标题 */
+.block-title{
+  margin: 20px 0;
+  background: inherit;
+  position: relative;
+}
+.block-title.block-text-center{
+  text-align: center;
+}
+.block-title.block-text-right{
+  text-align: right;
+}
+.block-title .block-line{
+  width: 100%;
+  border-bottom: solid 1px #dfe5ef;
+  background: inherit;
+  position: absolute;
+  top: 13px;
+}
+.block-title .block-text{
+  display: inline-block;
+  background: inherit;
+  padding: 5px 10px 5px 0;
+  line-height: 1.5;
+  position: relative;
+}
+.block-title.block-text-center .block-text{
+  padding: 5px 10px;
+}
+.block-title.block-text-right .block-text{
+  padding: 5px 0px 5px 10px;
+}
+
 /** 标签 **/
 .m-label {
   display: inline;
@@ -384,6 +417,9 @@ a.m-label.m-label-warning:hover {
 .text-center{
     text-align: center;
 }
+.tip-plain{
+  color: #999;
+}
 .no-border{
     border: none;
 }
@@ -408,4 +444,16 @@ a.m-label.m-label-warning:hover {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+
+
+.my-container,
+.row,
+div[class^=col]
+{
+  background: inherit;
+}
+.article{
+
 }
