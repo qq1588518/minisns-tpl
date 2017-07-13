@@ -1,0 +1,131 @@
+
+.edui-me .edui-toolbar .edui-combox-body .edui-arrow,
+.edui-me .edui-toolbar .edui-splitbutton-body .edui-arrow,
+.edui-me .edui-toolbar .edui-menubutton-body .edui-arrow {
+    background-image: url(../images/combo_arrow.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0,0;
+}
+.edui-me .edui-toolbar .edui-state-active .edui-splitborder{
+    border-color: transparent;
+}
+.edui-me .edui-toolbar .edui-combox-body .edui-arrow{
+    border: none !important;
+}
+.edui-me .edui-toolbar .edui-combox .edui-combox-body{
+    border: none;
+    width: auto;
+}
+.edui-me .edui-toolbar .edui-combox-body .edui-button-body{
+    width: auto;
+}
+
+
+.edui-me  .edui-for-source .edui-icon{
+    background-image: url(../images/source.png) !important;
+}
+.edui-me  .edui-for-fullscreen .edui-icon{
+    background-image: url(../images/fullscreen.png) !important;
+}
+.edui-me  .edui-for-fullscreen .edui-state-checked .edui-icon {
+    background-image: url(../images/minscreen.png) !important;
+}
+.edui-me .edui-for-undo .edui-icon{
+    background-image: url(../images/undo.png) !important;
+}
+.edui-me  .edui-for-redo .edui-icon{
+    background-image: url(../images/redo.png) !important;
+}
+
+.edui-me  .edui-for-blockquote .edui-icon{
+    background-image: url(../images/blockquote.png) !important; 
+}
+.edui-me  .edui-for-horizontal .edui-icon{
+    background-image: url(../images/horizontal.png) !important; 
+}
+.edui-me  .edui-for-removeformat .edui-icon{
+    background-image: url(../images/removeformat.png) !important;
+}
+.edui-me  .edui-for-formatmatch .edui-icon{
+    background-image: url(../images/formatmatch.png) !important;
+}
+.edui-me .edui-for-emotion .edui-icon{
+
+}
+.edui-me  .edui-for-simpleupload  .edui-icon{
+    background-image: url(../images/insertimage.png) !important;
+}
+
+.edui-me  .edui-for-unlink .edui-icon {
+    background-image: url(../images/unlink.png) !important;
+}
+.edui-me  .edui-for-link .edui-icon {
+    background-image: url(../images/link.png) !important;
+}
+
+.edui-me  .edui-for-bold .edui-icon{
+    background-image: url(../images/bold.png) !important;
+    background-position: 3px 2px;
+}
+.edui-me  .edui-for-italic .edui-icon{
+    background-image: url(../images/italic.png) !important;
+}
+.edui-me  .edui-for-underline .edui-icon{
+    background-image: url(../images/underline.png) !important;
+}
+.edui-me  .edui-for-forecolor .edui-icon{
+    background-image: url(../images/forecolor.png) !important;
+}
+.edui-me  .edui-for-backcolor .edui-icon{
+    background-image: url(../images/backcolor.png) !important;
+}
+
+
+.edui-me  .edui-for-rowspacingbottom .edui-icon {
+    background-image: url(../images/rowspacingbottom.png) !important;
+    background-position: 0 0;
+}
+.edui-me  .edui-for-rowspacingtop .edui-icon {
+    background-image: url(../images/rowspacingtop.png) !important;
+    background-position: 0 0;
+}
+.edui-me  .edui-for-lineheight .edui-icon {
+    background-image: url(../images/lineheight.png) !important;
+    background-position: 0 0;
+}
+
+ .edui-me  .edui-for-indent .edui-icon{
+    background-image: url(../images/indent.png) !important;
+} 
+.edui-me  .edui-for-justifyleft .edui-icon {
+    background-image: url(../images/justifyleft.png) !important;
+}
+.edui-me  .edui-for-justifycenter .edui-icon {
+    background-image: url(../images/justifycenter.png) !important;
+}
+.edui-me  .edui-for-justifyright .edui-icon {
+    background-image: url(../images/justifyright.png) !important;
+}
+.edui-me  .edui-for-justifyjustify .edui-icon {
+    // background-image: url(../images/justifyjustify.png) !important;
+}
+.edui-me  .edui-for-insertorderedlist .edui-icon {
+    background-image: url(../images/insertorderedlist.png) !important;
+}
+.edui-me  .edui-for-insertunorderedlist .edui-icon{
+    background-image: url(../images/insertunorderedlist.png) !important;
+}
+
+
+.edui-me  .edui-for-imagenone .edui-icon {
+    background-image: url(../images/imagenone.png) !important;
+}
+.edui-me .edui-for-imageleft .edui-icon{
+    background-image: url(../images/imageleft.png) !important;
+}
+.edui-me .edui-for-imageright .edui-icon{
+    background-image: url(../images/imageright.png) !important;
+}
+.edui-me .edui-for-imagecenter .edui-icon{
+    background-image: url(../images/imagecenter.png) !important;
+}
