@@ -37,7 +37,7 @@
             [
                 'fullscreen', 'source','|', 'undo', 'redo', '|',
                 'blockquote', 'horizontal', 'removeformat', 'formatmatch', '|', 
-                'simpleupload', 'emotion', '|',
+                'simpleupload', '|',
                 'link', 'unlink', '|',
                 'fontfamily', 'fontsize', '|','insertcode',
             ],
