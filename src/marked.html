@@ -9,11 +9,11 @@
 <title>微社区 - 轻量级的社区系统</title>
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400,300,400italic,500"> -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="css/base.css">
 <!-- <link rel="stylesheet" href="http://mengdu.github.io/blog/css/github-markdown.css"> -->
 <link rel="stylesheet" href="https://cdn.bootcss.com/github-markdown-css/2.8.0/github-markdown.css">
-<link rel="stylesheet" href="http://mengdu.github.io/blog/js/highlight/styles/atom-one-light.css">
+<link rel="stylesheet" href="css/atom-one-light.css">
 <style>
   .article .article-header{
     margin-bottom: 10px;
@@ -484,7 +484,8 @@ all code is your original work. <code>&lt;/legalese&gt;</code></p>
     </div>
     <div class="col-md-3 hidden-xs article-right">
 
-      <div class="box markdown-menu-box" id="menu" data-spy="affix" data-offset-top="110">
+      <!-- <div class="box markdown-menu-box" id="menu" data-spy="affix" data-offset-top="110"> -->
+      <div class="box markdown-menu-box" id="menu">
         <div class="box-header no-border">
           <h2 class="box-title">目录</h2>
         </div>
@@ -550,11 +551,22 @@ all code is your original work. <code>&lt;/legalese&gt;</code></p>
 <footer class="footer">
   <p class="copyright"><img src="imgs/logo.png" class="logo" alt="">&copy;微社区版权所有&nbsp;make by <a href="https://mengdu.github.io" target="_blank">@lanyue</a></p>
 </footer>
-
+<style type="text/css">
+  .affix-bottom{
+    top: 0;
+    position: relative;
+  }
+</style>
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
   $('body').scrollspy({target: '#menu'});
+  // data-spy="affix" data-offset-top="110"
+  $('#menu').affix({
+    offset: {
+      top: 110
+    }
+  })
 </script>
 </body>
 </html>
